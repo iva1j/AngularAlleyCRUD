@@ -8,13 +8,8 @@
       "phone": "555",
       "skills": [
         {
-          "skillName": "C#",
-          "experienceInYears": "3",
-          "proficiency": "beginner"
-        },
-        {
           "skillName": "Java",
-          "experienceInYears": "2",
+          "experienceInYears": "4",
           "proficiency": "beginner"
         }
       ]

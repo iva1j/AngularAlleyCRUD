@@ -26,4 +26,10 @@ export class ListEmployeesComponent implements OnInit {
   editButtonClick(employeeId: number) {
     this._router.navigate(["/edit", employeeId]);
   }
+
+  deleteEmployee() {
+    this._employeeService;
+    //.deleteEmployee()
+    // .subscribe(() => console.log("Employee deleted"));
+  }
 }
