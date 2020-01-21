@@ -191,23 +191,6 @@ export class CreateEmployeeComponent implements OnInit {
     });
   }
 
-  onLoadDataClick(): void {
-    const formArray1 = this.fb.array([
-      new FormControl("Iva", Validators.required),
-      new FormControl("IT", Validators.required),
-      new FormControl("Female", Validators.required)
-    ]);
-
-    const FormGroup = this.fb.group([
-      new FormControl("Iva", Validators.required),
-      new FormControl("IT", Validators.required),
-      new FormControl("Female", Validators.required)
-    ]);
-
-    console.log(formArray1);
-    console.log(FormGroup);
-  }
-
   onSubmit(): void {
     this.MapFormValuesToEmployeeModel();
     if (this.employee.id) {

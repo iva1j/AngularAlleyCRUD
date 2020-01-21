@@ -3,14 +3,19 @@
     {
       "id": 1,
       "fullName": "Iva Jesenković",
-      "contactPreference": "email",
+      "contactPreference": "phone",
       "email": "iva@thealley.com",
-      "phone": "77777",
+      "phone": "555",
       "skills": [
         {
           "skillName": "C#",
           "experienceInYears": "3",
-          "proficiency": "intermediate"
+          "proficiency": "beginner"
+        },
+        {
+          "skillName": "Java",
+          "experienceInYears": "2",
+          "proficiency": "beginner"
         }
       ]
     },
@@ -46,11 +51,6 @@
       "phone": "987878",
       "skills": [
         {
-          "skillName": "JS",
-          "experienceInYears": "1",
-          "proficiency": "beginner"
-        },
-        {
           "skillName": "Java",
           "experienceInYears": "2",
           "proficiency": "beginner"
@@ -65,7 +65,7 @@
       "phone": "sdsdd",
       "skills": [
         {
-          "skillName": "JS",
+          "skillName": "Java",
           "experienceInYears": "oki",
           "proficiency": "beginner"
         }
